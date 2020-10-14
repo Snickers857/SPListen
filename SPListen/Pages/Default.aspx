@@ -30,7 +30,9 @@
     <div id="menu">
         <ul>
             <li><a href="../Lists/Raumbuchung">Raumbuchung</a></li>
+            <li><a href="Javascript:OpenPopUpPage('../Lists/Raumbuchung/NewForm.aspx');">Raumbuchung</a></li>
         </ul>
+
        
     </div>
 
