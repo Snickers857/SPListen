@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{97a9dc18-1c76-43fd-a6b5-91b5fe90a4af}"
+       Name="bis_Raumbuchung"
+       DisplayName="bis"
+       Type="DateTime" StorageTZ="D/M/Y"
+       Required="TRUE"
+       Group="KIT">
+    
+    
+  </Field>
+</Elements>

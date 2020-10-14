@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{066b03d4-3421-4915-8518-8584f96e099b}"
+       Name="von_Raumbuchung"
+       DisplayName="von"
+       Type="DateTime" StorageTZ="D/M/Y"
+       Required="TRUE"
+       Group="KIT">
+    
+    
+  </Field>
+</Elements>

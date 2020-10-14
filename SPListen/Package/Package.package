@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b144396b-7bb1-40a5-beea-d2b6315ea5f2" solutionId="b144396b-7bb1-40a5-beea-d2b6315ea5f2" resetWebServer="false" sharePointProductVersion="16.0" name="SPListen" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="2c18cb72-267c-4bd1-848b-47009a54a6a8" />
+    <featureReference itemId="16a8b7ed-c1b2-4803-8c90-ffd0b42c549e" />
+  </features>
+</package>

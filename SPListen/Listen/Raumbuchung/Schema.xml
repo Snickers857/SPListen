@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Raumbuchung" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Raumbuchung" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100307D4817489D45CDAE3E8C1B4E8578DE" Name="Raumbuchung" Group="Benutzerdefinierte Inhaltstypen" Description="Mein Inhaltstyp" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{0fc46baf-5a30-41d5-b6c1-7f42159a8352}" DisplayName="Raum" Required="FALSE" Name="Raum_Raumbuchung" Format="Dropdown" /><FieldRef ID="{066b03d4-3421-4915-8518-8584f96e099b}" DisplayName="von" Required="TRUE" Name="von_Raumbuchung" /><FieldRef ID="{97a9dc18-1c76-43fd-a6b5-91b5fe90a4af}" DisplayName="bis" Required="TRUE" Name="bis_Raumbuchung" /><FieldRef ID="{3d62661e-9df4-464d-81eb-1f0554f21b8b}" DisplayName="Verantwortlicher" Required="FALSE" Name="Verantwortlicher_Raumbuchung" /></FieldRefs></ContentType></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{0fc46baf-5a30-41d5-b6c1-7f42159a8352}" Name="Raum_Raumbuchung" DisplayName="Raum" Type="Choice" Format="Dropdown" Required="FALSE" Group="KIT"><CHOICES><CHOICE>Konferenzraum 1</CHOICE><CHOICE>Schulung 1</CHOICE><CHOICE>Schulung 2</CHOICE><CHOICE>Schulung 3</CHOICE></CHOICES></Field><Field ID="{066b03d4-3421-4915-8518-8584f96e099b}" Name="von_Raumbuchung" DisplayName="von" Type="DateTime" StorageTZ="D/M/Y" Required="TRUE" Group="KIT"></Field><Field ID="{97a9dc18-1c76-43fd-a6b5-91b5fe90a4af}" Name="bis_Raumbuchung" DisplayName="bis" Type="DateTime" StorageTZ="D/M/Y" Required="TRUE" Group="KIT"></Field><Field ID="{3d62661e-9df4-464d-81eb-1f0554f21b8b}" Name="Verantwortlicher_Raumbuchung" DisplayName="Verantwortlicher" Type="User" Required="FALSE" Group="KIT"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Raum_Raumbuchung" /><FieldRef Name="von_Raumbuchung" /><FieldRef Name="bis_Raumbuchung" /><FieldRef Name="Verantwortlicher_Raumbuchung" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

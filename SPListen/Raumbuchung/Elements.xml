@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Übergeordneter ContentType: Element (0x01) -->
+  <ContentType ID="0x0100307D4817489D45CDAE3E8C1B4E8578DE" Name="Raumbuchung" Group="Benutzerdefinierte Inhaltstypen" Description="Mein Inhaltstyp" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{0fc46baf-5a30-41d5-b6c1-7f42159a8352}" DisplayName="Raum" Required="FALSE" Name="Raum_Raumbuchung" Format="Dropdown" />
+      <FieldRef ID="{066b03d4-3421-4915-8518-8584f96e099b}" DisplayName="von" Required="TRUE" Name="von_Raumbuchung" />
+      <FieldRef ID="{97a9dc18-1c76-43fd-a6b5-91b5fe90a4af}" DisplayName="bis" Required="TRUE" Name="bis_Raumbuchung" />
+      <FieldRef ID="{3d62661e-9df4-464d-81eb-1f0554f21b8b}" DisplayName="Verantwortlicher" Required="FALSE" Name="Verantwortlicher_Raumbuchung" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

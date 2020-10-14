@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{3d62661e-9df4-464d-81eb-1f0554f21b8b}"
+       Name="Verantwortlicher_Raumbuchung"
+       DisplayName="Verantwortlicher"
+       Type="User"
+       Required="FALSE"
+       Group="KIT">
+  </Field>
+</Elements>

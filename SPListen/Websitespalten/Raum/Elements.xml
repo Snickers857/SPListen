@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{0fc46baf-5a30-41d5-b6c1-7f42159a8352}"
+       Name="Raum_Raumbuchung"
+       DisplayName="Raum"
+       Type="Choice" Format="Dropdown"
+       Required="FALSE"
+       Group="KIT">
+       
+    <CHOICES>
+      <CHOICE>Konferenzraum 1</CHOICE>
+      <CHOICE>Schulung 1</CHOICE>
+      <CHOICE>Schulung 2</CHOICE>
+      <CHOICE>Schulung 3</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>
