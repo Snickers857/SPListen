@@ -42,6 +42,14 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="KFZ-Buchung-Spalten\BuchungBis\Elements.xml" />
+    <Content Include="KFZ-Buchung-Spalten\BuchungVon\Elements.xml" />
+    <Content Include="KFZ-Buchung-Spalten\Kennzeichen\Elements.xml" />
+    <Content Include="KFZ-Buchung-Spalten\typ_kfz\Elements.xml" />
+    <Content Include="CTkfz\Elements.xml" />
+    <Content Include="KFZ-Nutzung\Elements.xml" />
+    <Content Include="KFZ-Nutzung\KFZ-NutzungInstance\Elements.xml" />
+    <Content Include="KFZ-Nutzung\Schema.xml" />
     <Content Include="Websitespalten\bis\Elements.xml" />
     <Content Include="Features\Feature2\Feature2.Template.xml">
       <DependentUpon>Feature2.feature</DependentUpon>
@@ -56,6 +64,27 @@
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Websitespalten\Verantwortlicher\Elements.xml" />
+    <None Include="KFZ-Buchung-Spalten\BuchungBis\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f7c4a59f-492f-4c9d-8a0b-61c6c3043def}</SharePointProjectItemId>
+    </None>
+    <None Include="KFZ-Buchung-Spalten\BuchungVon\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5bf0d2d7-0d0e-44d2-9f59-3f045b9c2258}</SharePointProjectItemId>
+    </None>
+    <None Include="KFZ-Buchung-Spalten\Kennzeichen\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c448c4cc-604c-41cf-af80-25ecf4de5682}</SharePointProjectItemId>
+    </None>
+    <None Include="KFZ-Buchung-Spalten\typ_kfz\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ad5e85ab-2e20-4a78-9ff6-4a106693e116}</SharePointProjectItemId>
+    </None>
+    <None Include="CTkfz\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ede2136b-e8f4-4faa-9692-b3fc94c8b65c}</SharePointProjectItemId>
+    </None>
+    <None Include="KFZ-Nutzung\KFZ-NutzungInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cff2a1d8-af03-4fc2-8c37-9c3e09dcecf8}</SharePointProjectItemId>
+    </None>
+    <None Include="KFZ-Nutzung\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{37d95dd5-ff3e-4af9-bf70-8aad20bf4673}</SharePointProjectItemId>
+    </None>
     <None Include="Websitespalten\bis\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f74db013-7250-4158-8171-508e1f94c344}</SharePointProjectItemId>
     </None>

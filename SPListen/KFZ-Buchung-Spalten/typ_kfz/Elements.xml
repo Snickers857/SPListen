@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ceb2ccae-4eaa-401a-9359-07d00917e350}"
+       Name="typ_kfz"
+       DisplayName="typ_kfz"
+       Type="Choice"
+       Required="FALSE"
+       Group="KIT">
+    <CHOICES>
+      <CHOICE>PKW</CHOICE>
+      <CHOICE>LKW</CHOICE>
+      <CHOICE>Cabrio</CHOICE>
+      <CHOICE>Limousine</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

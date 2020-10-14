@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{8487b076-12d8-48ac-9761-206a12019bcc}"
+       Name="BuchungBis"
+       DisplayName="Buchung Bis"
+       Type="DateTime" StorageTZ="D/M/Y" Format="DateOnly"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

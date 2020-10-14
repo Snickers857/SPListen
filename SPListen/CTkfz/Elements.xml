@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Übergeordneter ContentType: Element (0x01) -->
+  <ContentType ID="0x0100EE424D7C5CD647288B867EC25B10C9DB" Name="CTkfz" Group="Benutzerdefinierte Inhaltstypen" Description="Mein Inhaltstyp" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{8ed7b5eb-d828-41d5-a7c0-831a7a331ffd}" DisplayName="Kennzeichen" Required="FALSE" Name="Kennzeichen" />
+      <FieldRef ID="{ceb2ccae-4eaa-401a-9359-07d00917e350}" DisplayName="typ_kfz" Required="FALSE" Name="typ_kfz" />
+      <FieldRef ID="{7dd9d444-7a23-4b63-810c-db200b6486d3}" DisplayName="Buchung Von" Required="FALSE" Name="BuchungVon" Format="DateOnly" />
+      <FieldRef ID="{8487b076-12d8-48ac-9761-206a12019bcc}" DisplayName="Buchung Bis" Required="FALSE" Name="BuchungBis" Format="DateOnly" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

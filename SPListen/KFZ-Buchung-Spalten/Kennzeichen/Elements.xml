@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{8ed7b5eb-d828-41d5-a7c0-831a7a331ffd}"
+       Name="Kennzeichen"
+       DisplayName="Kennzeichen"
+       Type="Text"
+       Required="FALSE"
+       Group="KIT">
+  </Field>
+</Elements>

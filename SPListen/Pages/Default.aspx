@@ -32,7 +32,10 @@
             <li><a href="../Lists/Raumbuchung">Raumbuchung</a></li>
             <li><a href="Javascript:OpenPopUpPage('../Lists/Raumbuchung/NewForm.aspx');">Raumbuchung</a></li>
         </ul>
-
+        <ul>
+            <li><a href="../Lists/KFZ-Nutzung">KFZ-Buchung</a></li>
+           <%-- <li><a href="Javascript:OpenPopUpPage('../Lists/KFZ-Buchung/NewForm.aspx');">KFZ-Buchung</a></li> --%>
+        </ul>
        
     </div>
 
